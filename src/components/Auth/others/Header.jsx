@@ -17,7 +17,7 @@ const Header = (props) => {
   }
   return (
     <div className='flex items-end justify-between text-white'>
-        <h1 className='text-2xl font-medium'>Hello <br /> <span className='text-4xl font-semibold'> 👋🏻</span></h1>
+        <h1 className='text-2xl font-medium'>Employee Management System <br /> <span className='text-4xl font-semibold'> 👋🏻</span></h1>
         <button onClick={logOutUser} id='headbut' className='bg-red-500 text-white px-5 py-2 rounded-sm text-lg font-medium'>Log Out</button>
     </div>
   )
